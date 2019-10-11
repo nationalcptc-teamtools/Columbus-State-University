@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>expanded</key><false/>
+  <key>duplicate_of</key><string>b3e55880-2d7e-4536-ab11-8b1ebe6e1508</string>
+  <key>nodeid</key><string>b9a34cc9-9e5a-46bf-841c-5ab9c9b57674</string>
+  <key>modified_time</key><integer>1564872169</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1564872169</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>title</key><string>CustomScripts</string>
+  <key>version</key><integer>6</integer>
+  <key>order</key><integer>3</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>6f2e326f-c793-421b-98c7-0403d22cda57</string>
+  <key>title</key><string>msfconsole</string>
+  <key>nodeid</key><string>55bfb140-4562-42c4-be99-3823ddffa094</string>
+  <key>modified_time</key><integer>1570039560</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1570037916</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

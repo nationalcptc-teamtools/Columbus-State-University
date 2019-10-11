@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>commands</title>
+</head><body>disassemble main<br/>
+set disassembly-flavor intel<br/>
+break *main<br/>
+break *0x0000000000400607<br/>
+info registers<br/>
+si &nbsp;****** step into<br/>
+ni ******* next instructions<br/>
+continue *** run until next break point<br/>
+run parameter<br/>
+set $eax=0 ** at a breakpoint it is possible to change the value of variables.<br/>
+k &nbsp; ****** kill<br/>
+q &nbsp; ****** quit<br/>
+</body></html>

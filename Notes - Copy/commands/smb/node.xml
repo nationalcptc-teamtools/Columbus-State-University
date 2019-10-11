@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>a8e2f70c-4b6d-4eda-b746-c897ef39d815</string>
+  <key>title</key><string>SMB</string>
+  <key>nodeid</key><string>9f16df13-1fc7-4752-bd69-7626380962c0</string>
+  <key>modified_time</key><integer>1570717959</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1570717959</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>9</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

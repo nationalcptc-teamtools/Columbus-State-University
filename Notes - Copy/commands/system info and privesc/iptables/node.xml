@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>20006713-39c1-407e-bb83-a4ad335e5dda</string>
+  <key>title</key><string>iptables</string>
+  <key>nodeid</key><string>51ee0260-9434-4988-a193-c7c024cdaf7e</string>
+  <key>modified_time</key><integer>1570035639</integer>
+  <key>expanded2</key><true/>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1570035612</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>1</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

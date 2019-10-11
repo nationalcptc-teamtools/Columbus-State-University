@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>nmap</title>
+</head><body>nmap -A -sV --script=default,vuln -p- --open -oA tcp_10.11.1.x 10.11.1.x &nbsp;<br/>
+nmap -A -sV -sU --script=default,vuln --open -oA udp_10.11.1.x 10.11.1.x &nbsp;<br/>
+<br/>
+## IPSEC's Default<br/>
+nmap -sC -sV -oA nmap 10.10.10.*<br/>
+<br/>
+<br/>
+## OS Finger Printing<br/>
+nmap -O 10.0.0.19 <br/>
+<br/>
+## smb vuln check the entire network --actualy doesn't take too long <br/>
+nmap -p 139,445 --script=vuln -o test1 10.11.1.2-250<br/>
+nmap -v -p 139,445 --script=vuln --script-args=unsafe=1 10.11.1.5<br/>
+<br/>
+<br/>
+##NSE scripts /usr/share/nmap/scripts<br/>
+</body></html>

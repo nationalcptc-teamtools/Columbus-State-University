@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>49ff3bd6-3aa8-4d6b-9f99-108518f0248f</string>
+  <key>title</key><string>Metasploit</string>
+  <key>nodeid</key><string>9453f929-5f22-42b2-a497-a980cfe4a15b</string>
+  <key>modified_time</key><integer>1570718781</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1570718781</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>14</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

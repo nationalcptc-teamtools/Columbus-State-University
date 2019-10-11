@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>ae9b25a4-d701-41cd-b292-b95144bb3d55</string>
+  <key>title</key><string>TCP Utilities</string>
+  <key>nodeid</key><string>adf04584-5363-4e55-afbb-e5310144c2cb</string>
+  <key>modified_time</key><integer>1570718711</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1570718711</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>3</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

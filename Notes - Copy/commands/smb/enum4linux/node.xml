@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>88098edc-711f-4db1-bbcb-1e912f6f7609</string>
+  <key>title</key><string>enum4linux</string>
+  <key>nodeid</key><string>0a7bbf8e-0fbc-4b86-8050-9492ee9389b9</string>
+  <key>modified_time</key><integer>1565999095</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1565811106</integer>
+  <key>order</key><integer>4</integer>
+</dict>
+</node>

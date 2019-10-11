@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>336b12be-3b96-425a-83f5-10b69cc38f4f</string>
+  <key>title</key><string>re</string>
+  <key>nodeid</key><string>c251c4d0-4f8c-4398-ac70-fd6343830554</string>
+  <key>modified_time</key><integer>1569335996</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1569335996</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>4</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

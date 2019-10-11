@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>9366f2d1-d800-40b1-9127-94604e2bebc5</string>
+  <key>title</key><string>radare2</string>
+  <key>nodeid</key><string>671f129d-ceed-4d4f-a1a7-421b5335f6fd</string>
+  <key>modified_time</key><integer>1569435489</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1569432158</integer>
+  <key>order</key><integer>4</integer>
+</dict>
+</node>

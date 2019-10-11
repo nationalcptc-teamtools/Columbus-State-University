@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>f9c6f16a-667c-4756-80a5-93695b78fc80</string>
+  <key>title</key><string>BashOneLinerSamples</string>
+  <key>nodeid</key><string>fcd3352d-8da8-4f92-811c-d8513c6517ee</string>
+  <key>modified_time</key><integer>1565883843</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1564871689</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>0</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

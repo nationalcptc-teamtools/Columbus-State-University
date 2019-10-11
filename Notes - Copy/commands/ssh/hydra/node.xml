@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>a2ce02a5-968c-4a61-a017-deb4687ee2ba</string>
+  <key>title</key><string>hydra</string>
+  <key>nodeid</key><string>701f27e9-91ca-4156-aedc-b0972587a323</string>
+  <key>modified_time</key><integer>1570109351</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1570109341</integer>
+  <key>order</key><integer>0</integer>
+</dict>
+</node>

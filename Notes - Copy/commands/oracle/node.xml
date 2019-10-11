@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>67718afa-9094-49c3-926d-a2d38e1a4de8</string>
+  <key>title</key><string>Oracle</string>
+  <key>nodeid</key><string>3d50ec79-2c5f-4505-9764-da9c12bff233</string>
+  <key>modified_time</key><integer>1570718446</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1570718446</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>6</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

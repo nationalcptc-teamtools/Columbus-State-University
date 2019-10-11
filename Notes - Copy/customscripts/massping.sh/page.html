@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MassPing.sh</title>
+</head><body>// needed to declare what program is used in this case bash<br/>
+#!/bin/bash<br/>
+<br/>
+// if no input then return a string<br/>
+if [ "$1" == "" ]<br/>
+then<br/>
+echo "You forgot the Ip address"<br/>
+else<br/>
+// ` is to the left of the 1<br/>
+for ip in `seq 1 254`; do<br/>
+// sends one ping greps the line with 64 bytes cuts it at the 4th " " and trims <br/>
+// the : at the end. also pipes it into the second paramter as a file name.<br/>
+ping -c 1 $1.$ip | grep "64 bytes" | cut -d " " -f 4 | tr -d ":" &gt;&gt; $2 &amp;<br/>
+done<br/>
+fi<br/>
+</body></html>

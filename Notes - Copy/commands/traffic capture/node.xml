@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<dict>
+  <key>duplicate_of</key><string>6a6203ce-363d-4885-bcff-eb23d20f700b</string>
+  <key>title</key><string>Traffic Capture</string>
+  <key>nodeid</key><string>74fb08d8-465d-4b6f-9fc5-6d7afe1a9f14</string>
+  <key>modified_time</key><integer>1570717867</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>application/x-notebook-dir</string>
+  <key>created_time</key><integer>1570717867</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>11</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>

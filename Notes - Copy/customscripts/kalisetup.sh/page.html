@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KaliSetup.sh</title>
+</head><body>echo &nbsp;"Creating a backup of the sources.list and adding the rolling release regular repositories and source repositories"<br/>
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.BackUp<br/>
+<br/>
+echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" &gt; /etc/apt/sources.list<br/>
+echo "# For source package access, uncomment the following line" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# deb-src http://http.kali.org/kali kali-rolling main contrib non-free" &gt;&gt; /etc/apt/sources.list<br/>
+echo "deb http://http.kali.org/kali sana main non-free contrib" &gt;&gt; /etc/apt/sources.list<br/>
+echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# For source package access, uncomment the following line" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# deb-src http://http.kali.org/kali sana main non-free contrib" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# deb-src http://security.kali.org/kali-security sana/updates main contrib non-free" &gt;&gt; /etc/apt/sources.list<br/>
+echo "deb http://old.kali.org/kali moto main non-free contrib" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# For source package access, uncomment the following line" &gt;&gt; /etc/apt/sources.list<br/>
+echo "# deb-src http://old.kali.org/kali moto main non-free contrib" &gt;&gt; /etc/apt/sources.list<br/>
+<br/>
+echo "Starting the update"<br/>
+sudo apt-get update<br/>
+<br/>
+echo "Placing git repos into /opt"<br/>
+cd /opt<br/>
+sudo git clone https://github.com/Tib3rius/AutoRecon.git<br/>
+sudo git clone https://github.com/rebootuser/LinEnum.git<br/>
+sudo git clone https://github.com/3ndG4me/AutoBlue-MS17-010.git<br/>
+sudo git clone https://github.com/tennc/webshell.git<br/>
+sudo git clone https://github.com/dreadlocked/Drupalgeddon2.git<br/>
+sudp git clone https://github.com/jivoi/pentest.git ./offsecfw<br/>
+sudo gem install text-table<br/>
+sudo gem install highline<br/>
+cd AutoRecon<br/>
+pip3 install -r requirements.txt<br/>
+cd /opt<br/>
+<br/>
+echo "Starting the apt-get installations"<br/>
+sudo apt install gobuster<br/>
+sudo apt install empire<br/>
+sudo apt-get install mingw-w64<br/>
+sudo apt install veil<br/>
+sudo apt install seclists<br/>
+sudo apt install ftp<br/>
+sudo apt install p7zip-full<br/>
+apt-get install -y virtualbox-guest-x11<br/>
+<br/>
+echo "updating the db"<br/>
+updatedb<br/>
+<br/>
+read -p "Reboot? " -n 1 -r<br/>
+if [[ $REPLY =~ ^[Yy]$ ]]<br/>
+then<br/>
+&nbsp; &nbsp; echo "Rebooting."<br/>
+&nbsp; &nbsp; sudo reboot<br/>
+fi</body></html>

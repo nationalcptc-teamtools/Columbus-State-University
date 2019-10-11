@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>radare2</title>
+</head><body>radare2 BINARY<br/>
+<br/>
+aaaa &nbsp;** Analys All<br/>
+<br/>
+s sym.main &nbsp; *** seek to the main function<br/>
+<br/>
+pdf &nbsp; &nbsp;** print the disassembly<br/>
+<br/>
+ood &nbsp;** Open the file again but in debug mode<br/>
+ood Parameter ** Open the file and pass it a parameter.<br/>
+<br/>
+<br/>
+db &nbsp; &nbsp;0x00400649 *** set a breakpoint &nbsp;then follow it by running ood again.<br/>
+<br/>
+dc &nbsp; ** Continue past the breakpoint.<br/>
+<br/>
+dr &nbsp;*** Displays registers<br/>
+<br/>
+dr rip=0x0040064b &nbsp; ** move the rip to where you want it enabling you to move the registry as needed.<br/>
+<br/>
+VV &nbsp; &nbsp; &nbsp; &nbsp;*** Entering visual mode &nbsp; &nbsp; radare2 Binary, aaa, pdf, &nbsp;s sym.main, VV<br/>
+To get to the :&gt; option in visual mode type in SHIFT :<br/>
+<br/>
+afvn local_14h i<br/>
+<br/>
+V! is a very nice visual reference.</body></html>

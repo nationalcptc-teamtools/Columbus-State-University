@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>grep</title>
+</head><body>grep test ## will look for "test"<br/>
+grep -i test ## will look for "test" "Test" "TeST" etc. Isn't case sensative<br/>
+<br/>
+<br/>
+&nbsp;before 5 after 5 case insensitive find password in PRTG\ Configuration.old.bak remove spaces and sort uniqly<br/>
+grep -B5 -A5 -i password PRTG\ Configuration.old.bak | sed 's/ //g'|sort -u| less</body></html>
